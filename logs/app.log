@@ -1,0 +1,198 @@
+2025-09-25T13:23:06.280+08:00  INFO 23536 --- [CardsIT] [main] com.cvk.CardsIT.CardsItApplication       : Starting CardsItApplication using Java 21.0.6 with PID 23536 (D:\May\target\classes started by SDVKCHANG in D:\May)
+2025-09-25T13:23:06.284+08:00 DEBUG 23536 --- [CardsIT] [main] com.cvk.CardsIT.CardsItApplication       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-25T13:23:06.286+08:00  INFO 23536 --- [CardsIT] [main] com.cvk.CardsIT.CardsItApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-09-25T13:23:07.420+08:00  INFO 23536 --- [CardsIT] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-25T13:23:07.546+08:00  INFO 23536 --- [CardsIT] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 1 JPA repository interface.
+2025-09-25T13:23:08.516+08:00  INFO 23536 --- [CardsIT] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-25T13:23:08.555+08:00  INFO 23536 --- [CardsIT] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-25T13:23:08.556+08:00  INFO 23536 --- [CardsIT] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-25T13:23:08.653+08:00  INFO 23536 --- [CardsIT] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-25T13:23:08.653+08:00  INFO 23536 --- [CardsIT] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2273 ms
+2025-09-25T13:23:08.735+08:00 DEBUG 23536 --- [CardsIT] [main] com.cvk.CardsIT.log.LoggingFilter        : Filter 'loggingFilter' configured for use
+2025-09-25T13:23:09.033+08:00  INFO 23536 --- [CardsIT] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-25T13:23:09.151+08:00  INFO 23536 --- [CardsIT] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-09-25T13:23:09.211+08:00  INFO 23536 --- [CardsIT] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-25T13:23:09.770+08:00  INFO 23536 --- [CardsIT] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-25T13:23:09.837+08:00  INFO 23536 --- [CardsIT] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-25T13:23:10.382+08:00  INFO 23536 --- [CardsIT] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 09645f28-e0e3-4dfd-997c-3b8c68584687
+2025-09-25T13:23:10.384+08:00  INFO 23536 --- [CardsIT] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-25T13:23:10.418+08:00  WARN 23536 --- [CardsIT] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServer2012Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-25T13:23:10.420+08:00  WARN 23536 --- [CardsIT] [main] org.hibernate.orm.deprecation            : HHH90000026: SQLServer2012Dialect has been deprecated; use org.hibernate.dialect.SQLServerDialect instead
+2025-09-25T13:23:10.463+08:00  INFO 23536 --- [CardsIT] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-25T13:23:11.619+08:00  INFO 23536 --- [CardsIT] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-25T13:23:11.750+08:00  INFO 23536 --- [CardsIT] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-25T13:23:12.206+08:00  WARN 23536 --- [CardsIT] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-25T13:23:12.863+08:00  INFO 23536 --- [CardsIT] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-25T13:23:12.883+08:00  INFO 23536 --- [CardsIT] [main] com.cvk.CardsIT.CardsItApplication       : Started CardsItApplication in 7.494 seconds (process running for 8.249)
+2025-09-25T13:28:58.127+08:00  INFO 17656 --- [CardsIT] [main] com.cvk.CardsIT.CardsItApplication       : Starting CardsItApplication using Java 21.0.6 with PID 17656 (D:\May\target\classes started by SDVKCHANG in D:\May)
+2025-09-25T13:28:58.130+08:00 DEBUG 17656 --- [CardsIT] [main] com.cvk.CardsIT.CardsItApplication       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-25T13:28:58.132+08:00  INFO 17656 --- [CardsIT] [main] com.cvk.CardsIT.CardsItApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-09-25T13:28:59.350+08:00  INFO 17656 --- [CardsIT] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-25T13:28:59.471+08:00  INFO 17656 --- [CardsIT] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 1 JPA repository interface.
+2025-09-25T13:29:00.409+08:00  INFO 17656 --- [CardsIT] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-25T13:29:00.438+08:00  INFO 17656 --- [CardsIT] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-25T13:29:00.439+08:00  INFO 17656 --- [CardsIT] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-25T13:29:00.513+08:00  INFO 17656 --- [CardsIT] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-25T13:29:00.514+08:00  INFO 17656 --- [CardsIT] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2281 ms
+2025-09-25T13:29:00.612+08:00 DEBUG 17656 --- [CardsIT] [main] com.cvk.CardsIT.log.LoggingFilter        : Filter 'loggingFilter' configured for use
+2025-09-25T13:29:00.906+08:00  INFO 17656 --- [CardsIT] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-25T13:29:01.027+08:00  INFO 17656 --- [CardsIT] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-09-25T13:29:01.098+08:00  INFO 17656 --- [CardsIT] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-25T13:29:01.735+08:00  INFO 17656 --- [CardsIT] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-25T13:29:01.803+08:00  INFO 17656 --- [CardsIT] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-25T13:29:02.318+08:00  INFO 17656 --- [CardsIT] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 631f6a10-8074-4e0a-9fdc-9bc0701392b8
+2025-09-25T13:29:02.323+08:00  INFO 17656 --- [CardsIT] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-25T13:29:02.378+08:00  WARN 17656 --- [CardsIT] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServer2012Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-25T13:29:02.381+08:00  WARN 17656 --- [CardsIT] [main] org.hibernate.orm.deprecation            : HHH90000026: SQLServer2012Dialect has been deprecated; use org.hibernate.dialect.SQLServerDialect instead
+2025-09-25T13:29:02.435+08:00  INFO 17656 --- [CardsIT] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-25T13:29:03.689+08:00  INFO 17656 --- [CardsIT] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-25T13:29:03.842+08:00  INFO 17656 --- [CardsIT] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-25T13:29:04.324+08:00  WARN 17656 --- [CardsIT] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-25T13:29:04.997+08:00  INFO 17656 --- [CardsIT] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-25T13:29:05.014+08:00  INFO 17656 --- [CardsIT] [main] com.cvk.CardsIT.CardsItApplication       : Started CardsItApplication in 7.817 seconds (process running for 8.734)
+2025-09-25T13:40:22.837+08:00  INFO 16292 --- [CardsIT] [main] com.cvk.CardsIT.CardsItApplication       : Starting CardsItApplication using Java 21.0.6 with PID 16292 (D:\May\target\classes started by SDVKCHANG in D:\May)
+2025-09-25T13:40:22.841+08:00 DEBUG 16292 --- [CardsIT] [main] com.cvk.CardsIT.CardsItApplication       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-25T13:40:22.842+08:00  INFO 16292 --- [CardsIT] [main] com.cvk.CardsIT.CardsItApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-09-25T13:40:24.082+08:00  INFO 16292 --- [CardsIT] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-25T13:40:24.234+08:00  INFO 16292 --- [CardsIT] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 127 ms. Found 1 JPA repository interface.
+2025-09-25T13:40:25.351+08:00  INFO 16292 --- [CardsIT] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-25T13:40:25.379+08:00  INFO 16292 --- [CardsIT] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-25T13:40:25.380+08:00  INFO 16292 --- [CardsIT] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-25T13:40:25.489+08:00  INFO 16292 --- [CardsIT] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-25T13:40:25.489+08:00  INFO 16292 --- [CardsIT] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2540 ms
+2025-09-25T13:40:25.564+08:00 DEBUG 16292 --- [CardsIT] [main] com.cvk.CardsIT.log.LoggingFilter        : Filter 'loggingFilter' configured for use
+2025-09-25T13:40:25.880+08:00  INFO 16292 --- [CardsIT] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-25T13:40:26.035+08:00  INFO 16292 --- [CardsIT] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-09-25T13:40:26.110+08:00  INFO 16292 --- [CardsIT] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-25T13:40:26.836+08:00  INFO 16292 --- [CardsIT] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-25T13:40:26.925+08:00  INFO 16292 --- [CardsIT] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-25T13:40:27.551+08:00  INFO 16292 --- [CardsIT] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: f42dd1ef-82ec-4dd0-aa5e-db05828c3933
+2025-09-25T13:40:27.554+08:00  INFO 16292 --- [CardsIT] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-25T13:40:27.602+08:00  WARN 16292 --- [CardsIT] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServer2012Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-25T13:40:27.604+08:00  WARN 16292 --- [CardsIT] [main] org.hibernate.orm.deprecation            : HHH90000026: SQLServer2012Dialect has been deprecated; use org.hibernate.dialect.SQLServerDialect instead
+2025-09-25T13:40:27.652+08:00  INFO 16292 --- [CardsIT] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-25T13:40:28.964+08:00  INFO 16292 --- [CardsIT] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-25T13:40:29.136+08:00  INFO 16292 --- [CardsIT] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-25T13:40:29.757+08:00  WARN 16292 --- [CardsIT] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-25T13:40:30.618+08:00  INFO 16292 --- [CardsIT] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-25T13:40:30.636+08:00  INFO 16292 --- [CardsIT] [main] com.cvk.CardsIT.CardsItApplication       : Started CardsItApplication in 8.707 seconds (process running for 9.644)
+2025-09-25T13:45:16.671+08:00  WARN 16292 --- [CardsIT] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection ConnectionID:5 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-09-25T13:45:31.677+08:00  WARN 16292 --- [CardsIT] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection ConnectionID:2 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-09-25T13:45:31.797+08:00  WARN 16292 --- [CardsIT] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection ConnectionID:8 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-09-25T13:45:35.100+08:00  WARN 16292 --- [CardsIT] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection ConnectionID:9 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-09-25T13:45:54.379+08:00  WARN 16292 --- [CardsIT] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection ConnectionID:6 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-09-25T13:46:04.682+08:00  WARN 16292 --- [CardsIT] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection ConnectionID:3 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-09-25T13:46:11.551+08:00  WARN 16292 --- [CardsIT] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection ConnectionID:10 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-09-25T13:46:16.624+08:00  WARN 16292 --- [CardsIT] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection ConnectionID:7 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-09-25T13:46:24.261+08:00  WARN 16292 --- [CardsIT] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection ConnectionID:4 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-09-25T13:46:27.540+08:00  WARN 16292 --- [CardsIT] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Pool is empty, failed to create/setup connection (95c98464-bdf2-4b86-81e0-f086895f0c69)
+
+com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1433 has failed. Error: "Connection refused: getsockopt. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:250) ~[mssql-jdbc-12.10.1.jre11.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerException.convertConnectExceptionToSQLServerException(SQLServerException.java:316) ~[mssql-jdbc-12.10.1.jre11.jar:na]
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2593) ~[mssql-jdbc-12.10.1.jre11.jar:na]
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:721) ~[mssql-jdbc-12.10.1.jre11.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:4079) ~[mssql-jdbc-12.10.1.jre11.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:3695) ~[mssql-jdbc-12.10.1.jre11.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:3504) ~[mssql-jdbc-12.10.1.jre11.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:2212) ~[mssql-jdbc-12.10.1.jre11.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1320) ~[mssql-jdbc-12.10.1.jre11.jar:na]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144) ~[HikariCP-6.3.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:370) ~[HikariCP-6.3.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:207) ~[HikariCP-6.3.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488) ~[HikariCP-6.3.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:752) ~[HikariCP-6.3.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:731) ~[HikariCP-6.3.3.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-09-25T13:59:10.744+08:00  INFO 26160 --- [CardsIT] [main] com.cvk.CardsIT.CardsItApplication       : Starting CardsItApplication using Java 21.0.6 with PID 26160 (D:\May\target\classes started by SDVKCHANG in D:\May)
+2025-09-25T13:59:10.748+08:00 DEBUG 26160 --- [CardsIT] [main] com.cvk.CardsIT.CardsItApplication       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-25T13:59:10.750+08:00  INFO 26160 --- [CardsIT] [main] com.cvk.CardsIT.CardsItApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-09-25T13:59:12.000+08:00  INFO 26160 --- [CardsIT] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-25T13:59:12.119+08:00  INFO 26160 --- [CardsIT] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interface.
+2025-09-25T13:59:13.243+08:00  INFO 26160 --- [CardsIT] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-25T13:59:13.272+08:00  INFO 26160 --- [CardsIT] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-25T13:59:13.273+08:00  INFO 26160 --- [CardsIT] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-25T13:59:13.348+08:00  INFO 26160 --- [CardsIT] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-25T13:59:13.349+08:00  INFO 26160 --- [CardsIT] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2497 ms
+2025-09-25T13:59:13.433+08:00 DEBUG 26160 --- [CardsIT] [main] com.cvk.CardsIT.log.LoggingFilter        : Filter 'loggingFilter' configured for use
+2025-09-25T13:59:13.752+08:00  INFO 26160 --- [CardsIT] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-25T13:59:13.896+08:00  INFO 26160 --- [CardsIT] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-09-25T13:59:13.968+08:00  INFO 26160 --- [CardsIT] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-25T13:59:14.611+08:00  INFO 26160 --- [CardsIT] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-25T13:59:14.695+08:00  INFO 26160 --- [CardsIT] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-25T13:59:15.125+08:00  INFO 26160 --- [CardsIT] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: b087aab2-358f-4068-a076-761120d2258e
+2025-09-25T13:59:15.131+08:00  INFO 26160 --- [CardsIT] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-25T13:59:15.190+08:00  WARN 26160 --- [CardsIT] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServer2012Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-25T13:59:15.194+08:00  WARN 26160 --- [CardsIT] [main] org.hibernate.orm.deprecation            : HHH90000026: SQLServer2012Dialect has been deprecated; use org.hibernate.dialect.SQLServerDialect instead
+2025-09-25T13:59:15.241+08:00  INFO 26160 --- [CardsIT] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-25T13:59:16.418+08:00  INFO 26160 --- [CardsIT] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-25T13:59:16.976+08:00  INFO 26160 --- [CardsIT] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-25T13:59:17.443+08:00  WARN 26160 --- [CardsIT] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-25T13:59:18.076+08:00  INFO 26160 --- [CardsIT] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-25T13:59:18.090+08:00  INFO 26160 --- [CardsIT] [main] com.cvk.CardsIT.CardsItApplication       : Started CardsItApplication in 8.186 seconds (process running for 9.006)
+2025-09-25T14:05:35.150+08:00  INFO 26160 --- [CardsIT] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-25T14:05:35.151+08:00  INFO 26160 --- [CardsIT] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-25T14:05:35.154+08:00  INFO 26160 --- [CardsIT] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-09-25T14:05:36.060+08:00  INFO 26160 --- [CardsIT] [http-nio-8080-exec-2] com.cvk.CardsIT.log.LoggingFilter        : REQUEST: method=POST uri=/api/customers body={
+  "name": "John",
+  "email": "john@example.com",
+  "phone": "012-3456789",
+  "address" : "No 5566 Taman Mas, Kuala Lumpur"
+}
+
+2025-09-25T14:05:36.061+08:00  INFO 26160 --- [CardsIT] [http-nio-8080-exec-2] com.cvk.CardsIT.log.LoggingFilter        : RESPONSE: status=201 body={"id":1,"name":"John","email":"john@example.com","phone":"012-3456789","address":"No 5566 Taman Mas, Kuala Lumpur"}
+2025-09-25T14:09:40.376+08:00  WARN 26160 --- [CardsIT] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-09-25T14:09:40.377+08:00  INFO 26160 --- [CardsIT] [http-nio-8080-exec-5] com.cvk.CardsIT.log.LoggingFilter        : REQUEST: method=POST uri=/api/customers/1%0A body=
+2025-09-25T14:09:40.377+08:00  INFO 26160 --- [CardsIT] [http-nio-8080-exec-5] com.cvk.CardsIT.log.LoggingFilter        : RESPONSE: status=405 body=
+2025-09-25T14:10:13.781+08:00  INFO 26160 --- [CardsIT] [http-nio-8080-exec-6] com.cvk.CardsIT.log.LoggingFilter        : REQUEST: method=PUT uri=/api/customers/1%0A body={
+  "name": "Jane",
+  "email": "jane@example.com",
+  "phone": "012-9876543",
+  "address": "No 6655"
+}
+
+2025-09-25T14:10:13.782+08:00  INFO 26160 --- [CardsIT] [http-nio-8080-exec-6] com.cvk.CardsIT.log.LoggingFilter        : RESPONSE: status=200 body={"id":1,"name":"Jane","email":"jane@example.com","phone":"012-9876543","address":"No 6655"}
+2025-09-25T14:11:30.841+08:00  INFO 26160 --- [CardsIT] [http-nio-8080-exec-9] com.cvk.CardsIT.log.LoggingFilter        : REQUEST: method=GET uri=/api/customers/1 body=
+2025-09-25T14:11:30.841+08:00  INFO 26160 --- [CardsIT] [http-nio-8080-exec-9] com.cvk.CardsIT.log.LoggingFilter        : RESPONSE: status=200 body={"id":1,"name":"Jane","email":"jane@example.com","phone":"012-9876543","address":"No 6655"}
+2025-09-25T14:14:21.987+08:00  WARN 26160 --- [CardsIT] [http-nio-8080-exec-2] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-25T14:14:22.010+08:00  INFO 26160 --- [CardsIT] [http-nio-8080-exec-2] com.cvk.CardsIT.log.LoggingFilter        : REQUEST: method=GET uri=/api/customers/page body=
+2025-09-25T14:14:22.010+08:00  INFO 26160 --- [CardsIT] [http-nio-8080-exec-2] com.cvk.CardsIT.log.LoggingFilter        : RESPONSE: status=200 body={"content":[{"id":1,"name":"Jane","email":"jane@example.com","phone":"012-9876543","address":"No 6655"}],"pageable":{"pageNumber":0,"pageSize":10,"sort":{"empty":true,"unsorted":true,"sorted":false},"offset":0,"unpaged":false,"paged":true},"last":true,"totalPages":1,"totalElements":1,"size":10,"number":0,"sort":{"empty":true,"unsorted":true,"sorted":false},"first":true,"numberOfElements":1,"empty":false}
+2025-09-25T14:16:08.947+08:00  INFO 26160 --- [CardsIT] [http-nio-8080-exec-5] com.cvk.CardsIT.log.LoggingFilter        : REQUEST: method=GET uri=/api/customers/1/details body=
+2025-09-25T14:16:08.948+08:00  INFO 26160 --- [CardsIT] [http-nio-8080-exec-5] com.cvk.CardsIT.log.LoggingFilter        : RESPONSE: status=200 body={"externalUser":{"id":1,"name":"Leanne Graham","username":"Bret","email":"Sincere@april.biz","address":{"street":"Kulas Light","suite":"Apt. 556","city":"Gwenborough","zipcode":"92998-3874","geo":{"lat":"-37.3159","lng":"81.1496"}},"phone":"1-770-736-8031 x56442","website":"hildegard.org","company":{"name":"Romaguera-Crona","catchPhrase":"Multi-layered client-server neural-net","bs":"harness real-time e-markets"}},"customer":{"id":1,"name":"Jane","email":"jane@example.com","phone":"012-9876543","address":"No 6655"}}
+2025-09-25T14:24:50.225+08:00  INFO 26160 --- [CardsIT] [http-nio-8080-exec-8] com.cvk.CardsIT.log.LoggingFilter        : REQUEST: method=DELETE uri=/api/customers/1 body=
+2025-09-25T14:24:50.226+08:00  INFO 26160 --- [CardsIT] [http-nio-8080-exec-8] com.cvk.CardsIT.log.LoggingFilter        : RESPONSE: status=204 body=
